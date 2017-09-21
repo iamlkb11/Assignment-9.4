@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html><!-- Head of the Root -->
+  <head><!-- child sub root of the html tag as head tag  -->
+  <!-- it is a title tag -->
+  <title>Header and Footer</title>
+    <meta charset="utf-8">
+    <!--bootstap files: jquery,javascript and css files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+  <!-- Fixed navbar at the top with default css -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <!--The container that would hold the header  -->
+      <div class="container">
+        <div class="navbar-header">
+          <!-- this will be active when it is seen in mobile device/ lower resolution screens -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Navigation Bar</a>
+        </div>
+
+        <!--Actual menu contents -->
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      
+      </div>
+    
+    </nav>
+    <br>
+
+    <div class="page-header">
+      <h1 class="text-center">Header and Footer</h1><br>
+    </div>
+
+    <!--footer class with copyright glyphicons -->
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted text-center"><span class="glyphicon glyphicon-copyright-mark"> All rights reserved by Bootstrap</span></p>
+      </div>
+    </footer>	
+  
+  </body>
+</html>
